@@ -1,7 +1,7 @@
 import { useGLTF } from '@react-three/drei'
 
 export default function Model(props) {
-  const { nodes, materials } = useGLTF('/vilaoptim-v1_25102001.glb')
+  const { nodes, materials } = useGLTF('/vilaoptim-v1_25102002.glb')
   return (
     <group {...props} dispose={null}>
       <mesh
@@ -14,4 +14,4 @@ export default function Model(props) {
   )
 }
 
-useGLTF.preload('/vilaoptim-v1_25102001.glb')
+useGLTF.preload('/vilaoptim-v1_25102002.glb')
